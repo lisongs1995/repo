@@ -48,3 +48,6 @@ git log --graph --pretty=oneline --abbrev-commit
 
 
 ban no fast forwarding
+
+
+git checkout -b 'issue-101'
