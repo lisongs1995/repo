@@ -42,3 +42,9 @@ git checkout -b dev = git branch dev; git checkout dev
 
 git checkout master
 git checkout -b feature1
+
+解决问题后再次添加提交
+git log --graph --pretty=oneline --abbrev-commit
+
+
+ban no fast forwarding
