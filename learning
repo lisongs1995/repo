@@ -93,3 +93,4 @@ git branch --set-upstream dev origin/dev  指定本地dev与远程origin/dev分�
 git pull
 
 然后手动解决冲突再提交
+git push origin HEAD:ref/for/master
