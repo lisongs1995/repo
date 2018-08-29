@@ -27,3 +27,10 @@ git checkout -- file
 git remote add origin git@github.com:lisongs/repo.git
 git push -u origin master 第一次关联版本库
 git push origin master
+
+HEAD  版本
+master 分支
+
+git checkout -b dev = git branch dev; git checkout dev
+
+
