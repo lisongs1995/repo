@@ -51,3 +51,20 @@ ban no fast forwarding
 
 
 git checkout -b 'issue-101'
+git merge --no-ff -m "have commit id" dev
+git log
+
+bug  分支
+git stash
+
+git stash apply
+git drop stash
+
+or
+
+git stash drop
+
+
+可以多次stash
+git stash list查看，恢复指定的stash
+git stash apply stash@{0}
