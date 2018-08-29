@@ -68,3 +68,28 @@ git stash drop
 可以多次stash
 git stash list查看，恢复指定的stash
 git stash apply stash@{0}
+
+强行删除某一个feature分支
+git branch -D feature
+
+
+iii
+
+
+git remote
+git remote -v
+
+git push origin master
+git push origin dev
+
+
+多人开发
+
+git checkout -b dev origin/dev clone后看不到dev分支
+如果一个人已经推送到dev分支了
+
+你就会推送失败
+git branch --set-upstream dev origin/dev  指定本地dev与远程origin/dev分支的链接
+git pull
+
+然后手动解决冲突再提交
