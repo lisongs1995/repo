@@ -1,0 +1,29 @@
+ssh-keygen -t rsa -C lisongs@bupt.edu.cn
+
+git config --global user.name lisongs1995
+git config --global user.email lisongs@bupt.edu.cn
+
+git init
+
+git add readme.txt
+git commit -m "ad info"
+git status
+git diff readme.txt #比较暂存区与工作区的文件变化
+
+git log 查看提交历史，确定要回退到过去哪个版本
+git reflog 查看命令历史 commit id，要回到未来的哪个版本
+git reset --hard commit_id
+git diff HEAD -- readme.txt 比较版本库与工作区的文件diff
+
+git checkout -- file 把file在工作区的修改全部撤销 没啥用
+git reset HEAD file 把暂存区的修改撤销掉
+
+git rm file
+git commit -m "remove"
+
+如果误删除了，版本库还有呢，可以回复
+git checkout -- file
+
+git remote add origin git@github.com:lisongs/repo.git
+git push -u origin master 第一次关联版本库
+git push origin master
