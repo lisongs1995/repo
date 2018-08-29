@@ -41,3 +41,4 @@ git checkout -b dev = git branch dev; git checkout dev
 删除分支 git branch -d dev
 
 git checkout master
+git checkout -b feature1
