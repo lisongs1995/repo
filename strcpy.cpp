@@ -1,13 +1,5 @@
-/***************************************************************************
- * 
- * Copyright (c) 2018 Baidu.com, Inc. All Rights Reserved
- * $Id$ 
- * 
- **************************************************************************/
- 
  /**
  * @file strcpy.cpp
- * @author __OPERATOR__(_OPERATOR@baidu.com)
  * @date 2018/09/01 18:58:06
  * @version $Revision$ 
  * @brief 
