@@ -5,6 +5,11 @@
  * @brief 
  *  
  **/
+//thinking：
+//c++在编译器与运行期不会检查strcpy带来的数组越界
+//但有可能出现未知内存被占用而导致程序崩溃的危险
+//建议使用string类或者用更安全的strncpy
+
 #include <iostream>
 #include <cstring>
 
