@@ -1,0 +1,12 @@
+#!/bin/sh
+
+${HADOOP_HOME}/bin/hadoop streaming    \
+    -jobconf mapred.job.name="my_first_mapred"    \
+    -jobconf mapred.map.tasks=20    \
+    -jobconf mapred.reduce.tasks=1    \
+    -mapper    "path/map.py"    \
+    -reducer "path/reduce.py"    \
+    -file    "python ./path/map.py"    \
+    -file    "python ./path/reduce.py"    \    # -file 是该项任务中所有需要的执行文件路径
+    -input "./user/input"        \
+    -output "./user/output"   
