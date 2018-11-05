@@ -1,5 +1,4 @@
 #!/bin/bash
-# usgae: bash leetcode/create_makefile.sh cppfile_name
 
 set -o nounset
 set -o pipefail
