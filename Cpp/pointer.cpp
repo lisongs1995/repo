@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cstdlib>
-
+//puzzle link : https://bbs.byr.cn/#!article/CPP/98496
 using namespace std;
 
 struct Node{
